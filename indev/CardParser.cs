@@ -1,3 +1,6 @@
+/*
+DEPRECATED: We are now using Ty's scriptable object system for these cards
+*/
 using System;
 using System.Collections;
 using System.IO;
