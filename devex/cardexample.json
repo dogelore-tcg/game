@@ -1,3 +1,6 @@
+/*
+DEPRECATED: We are now using Ty's scriptable object system for this
+*/
 {
     "name": "walter",
     "path": "/Cards/walter.png",
