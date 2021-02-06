@@ -1,0 +1,8 @@
+{
+    "name": "walter",
+    "path": "/Cards/walter.png",
+    "atk": 3,
+    "def": 10,
+    "team": 1,
+    "place": 3
+}
