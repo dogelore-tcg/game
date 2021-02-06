@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New Card", menuName = "Card")]
+// written by Ty 2021
+
+[CreateAssetMenu(fileName = "New Card", menuName = "Card")] // dont touch this line
 public class Card : ScriptableObject
 {
     public Sprite cardImage;

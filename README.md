@@ -10,5 +10,8 @@ This repository is for our code in DLTCG.
 - Resources (like images) that programmers should have to use/test your scripts go in `/res`
 - If you need help with something and/or are not skilled enough to do it, reach out in the chat on Discord, and try to submit and issue to allow for easier tracking of your problem
 
+(To create a new card)
+- Right click in the assets panel and select 'create>card'.
+
 # When the Dogelore is a card game!
 ![da reddit man](https://i.redd.it/48guo6yt94z51.jpg)
