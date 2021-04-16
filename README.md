@@ -14,5 +14,3 @@ This repository is for our code in DLTCG.
 (To create a new card)
 - Right click in the assets panel and select 'create>card'.
 
-# When the Dogelore is a card game!
-![da reddit man](https://i.redd.it/48guo6yt94z51.jpg)
