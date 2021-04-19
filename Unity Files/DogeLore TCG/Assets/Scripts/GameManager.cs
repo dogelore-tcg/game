@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     // other references
     public UIHandler uih;
 
-    // this is every card the exists
+    // this is every card that exists
     public Card[] cards;
     // -----------------------------
     public int maxCardsInHand = 5;
