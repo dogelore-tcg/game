@@ -13,8 +13,6 @@ public class UIHandler : MonoBehaviour
     public Card enemyCard;
 
     [Header("Player card")]
-    //note - images are not sprites, this may be intentional by Ty, but I don't know, please get back to me when you see this Ty.
-    //TODO - remove this comment after Ty responds.
     public Image playerCardImage;
     public TextMeshProUGUI playerCardName;
     public TextMeshProUGUI playerCardHealth;
