@@ -17,3 +17,4 @@ This repository is for our code in DLTCG.
 
 # NOTE:
 `This is a testing branch and is not stable. It will be updated many times and may contain errors.`
+'THIS BRANCH IS NOT REPRESENTITIVE OF THE FINAL OR CURRENT PRODUCT'
