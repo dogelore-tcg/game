@@ -13,8 +13,9 @@ public class UIHandler : MonoBehaviour
     public Card enemyCard;
 
     [Header("Player card")]
+    //note - images are not sprites, this may be intentional by Ty, but I don't know, please get back to me when you see this Ty.
+    //TODO - remove this comment after Ty responds.
     public Image playerCardImage;
-    public Sprite playerCardSprite;
     public TextMeshProUGUI playerCardName;
     public TextMeshProUGUI playerCardHealth;
     public TextMeshProUGUI playerCardAttack;
@@ -22,7 +23,6 @@ public class UIHandler : MonoBehaviour
 
     [Header("Enemy card")]
     public Image enemyCardImage;
-    public Sprite enemyCardSprite;
     public TextMeshProUGUI enemyCardName;
     public TextMeshProUGUI enemyCardHealth;
     public TextMeshProUGUI enemyCardAttack;
@@ -38,9 +38,6 @@ public class UIHandler : MonoBehaviour
     {
         playerCardName.text = playersCard.cardName;
         enemyCardName.text = enemyCard.cardName;
-
-        //testing feature, note to self remove before publishing
-        playerCardImage.sprite = playerCardSprite;
 
         playerCardHealth.text = "Health: " + playersCard.health;
         enemyCardHealth.text = "Health: " + enemyCard.health;
@@ -74,6 +71,6 @@ public class UIHandler : MonoBehaviour
             enemyCard.alive = false;
             Debug.Log("Enemy's card dies");
         }
-        Debug.Log("Player's card current health:"+playersCard.health+"\nEnemy's card current health:"+enemyCard.health);
+        Debug.Log("\nPlayer's card current health:"+playersCard.health+"\nEnemy's card current health:"+enemyCard.health);
     }
 }
