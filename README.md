@@ -14,3 +14,6 @@ This repository is for our code in DLTCG.
 ### To create a new card
 - Right click in the Assets panel and select 'Create -> Card'.
 
+
+# NOTE:
+`This is a testing branch and is not stable. It will be updated many times and may contain errors.`
