@@ -674,3 +674,75 @@ System memory in use after: 88.6 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2344.
 Total: 5.136600 ms (FindLiveObjects: 0.686000 ms CreateObjectMapping: 0.230700 ms MarkObjects: 4.188000 ms  DeleteObjects: 0.029400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 10.018500 ms (FindLiveObjects: 0.764300 ms CreateObjectMapping: 0.067600 ms MarkObjects: 8.879400 ms  DeleteObjects: 0.305100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1825.071429 seconds.
+  path: Assets/Sprites/Missing_texture.png
+  artifactKey: Guid(52448b0b965a2be48b902ce43534d92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Missing_texture.png using Guid(52448b0b965a2be48b902ce43534d92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddb83972b7839dfcfac5ce7837468d4') in 2.494338 seconds
+  Import took 4.317384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.044584 seconds.
+  path: Assets/Cards/Cheems.asset
+  artifactKey: Guid(426cd0c2939c949638751050c0822e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Cheems.asset using Guid(426cd0c2939c949638751050c0822e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd69297feb4ec5a06b354045a1976f5') in 0.027319 seconds
+  Import took 0.034696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Cards/Walter.asset
+  artifactKey: Guid(5f58eee3d6d02408bba6a15a5ee1d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Walter.asset using Guid(5f58eee3d6d02408bba6a15a5ee1d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d681a6aa69b4df636e25531e7b5fb9') in 0.032665 seconds
+  Import took 0.042594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Cards/Doge.asset
+  artifactKey: Guid(e62eb1c9939dd4cea812ffaa157d929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Doge.asset using Guid(e62eb1c9939dd4cea812ffaa157d929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413cb19772a7fe0c5bd4e1f94cc1198c') in 0.031069 seconds
+  Import took 0.041380 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.262 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 3.473800 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.065500 ms MarkObjects: 3.090300 ms  DeleteObjects: 0.033100 ms)
+

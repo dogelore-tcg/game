@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Doge
   m_EditorClassIdentifier: 
   cardName: Doge
-  cardImage: {fileID: 21300000, guid: 9219f27d30e936d44a1bb8273fe75ed9, type: 3}
+  cardImage: {fileID: 21300000, guid: 52448b0b965a2be48b902ce43534d92d, type: 3}
   health: 1
   attack: 1
   defence: 1
   team: 0
   place: 0
+  alive: 0

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Cheems
   m_EditorClassIdentifier: 
   cardName: Cheems
-  cardImage: {fileID: 0}
+  cardImage: {fileID: 21300000, guid: 52448b0b965a2be48b902ce43534d92d, type: 3}
   health: 40
   attack: 10
   defence: 1
   team: 0
   place: 0
+  alive: 0
