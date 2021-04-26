@@ -754,9 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uih: {fileID: 0}
   cards:
-  - {fileID: 11400000, guid: 426cd0c2939c949638751050c0822e08, type: 2}
-  - {fileID: 11400000, guid: e62eb1c9939dd4cea812ffaa157d929d, type: 2}
-  - {fileID: 11400000, guid: 5f58eee3d6d02408bba6a15a5ee1d87c, type: 2}
+  - {fileID: 11400000, guid: 1250ee0a895f1154ab261f3520e3a111, type: 2}
   maxCardsInHand: 5
   maxCardsInPlay: 2
   playersCardsInPlay:

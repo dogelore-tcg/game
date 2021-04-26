@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d17aff874638f43fab60942a9151ddd3, type: 3}
-  m_Name: Doge
+  m_Name: Crash Test Doge
   m_EditorClassIdentifier: 
-  cardName: Doge
+  cardName: Debug test card
   cardImage: {fileID: 21300000, guid: 9219f27d30e936d44a1bb8273fe75ed9, type: 3}
   health: 1
   attack: 1
   defence: 1
   team: 0
   place: 0
+  alive: 0
