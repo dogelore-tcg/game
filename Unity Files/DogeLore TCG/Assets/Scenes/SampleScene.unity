@@ -241,11 +241,13 @@ MonoBehaviour:
   playersCard: {fileID: 0}
   enemyCard: {fileID: 0}
   playerCardImage: {fileID: 670564698}
+  playerCardSprite: {fileID: 0}
   playerCardName: {fileID: 812272383}
   playerCardHealth: {fileID: 770317890}
   playerCardAttack: {fileID: 1320089678}
   playerCardDefence: {fileID: 595770642}
   enemyCardImage: {fileID: 455172833}
+  enemyCardSprite: {fileID: 0}
   enemyCardName: {fileID: 455172832}
   enemyCardHealth: {fileID: 455172831}
   enemyCardAttack: {fileID: 455172830}
@@ -754,9 +756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uih: {fileID: 0}
   cards:
-  - {fileID: 11400000, guid: 426cd0c2939c949638751050c0822e08, type: 2}
-  - {fileID: 11400000, guid: e62eb1c9939dd4cea812ffaa157d929d, type: 2}
-  - {fileID: 11400000, guid: 5f58eee3d6d02408bba6a15a5ee1d87c, type: 2}
+  - {fileID: 11400000, guid: 1250ee0a895f1154ab261f3520e3a111, type: 2}
   maxCardsInHand: 5
   maxCardsInPlay: 2
   playersCardsInPlay:
@@ -1145,6 +1145,10 @@ PrefabInstance:
     - target: {fileID: 8326863346693815581, guid: 2039271e1c2f048888891a378578f68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326863348101564344, guid: 2039271e1c2f048888891a378578f68f, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2039271e1c2f048888891a378578f68f, type: 3}

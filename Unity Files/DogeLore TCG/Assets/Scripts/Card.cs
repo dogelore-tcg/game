@@ -15,6 +15,13 @@ public class Card : ScriptableObject
     public int defence;
     public int team;
     public int place;
+    public bool alive;
+
+    //This is the text shown for abilities
+    //example - Stuns opponents for 1 turn on attack
+    public string abilityText;
+    public bool stunned = false;
+    public int stunnedTurns = 0;
 
     public Card(string _cardName, Sprite _cardImage, int _health, int _attack, int _defence, int _team, int _place)
     {
@@ -25,5 +32,6 @@ public class Card : ScriptableObject
         defence = _defence;
         team = _team;
         place = _place;
+        alive = true;
     }
 }

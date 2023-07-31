@@ -34,6 +34,10 @@ public class UIHandler : MonoBehaviour
 
     public void SetUI()
     {
+        //testing, remove before publishing
+        playerCardImage.sprite = playersCard.cardImage;
+        enemyCardImage.sprite = enemyCard.cardImage;
+
         playerCardName.text = playersCard.cardName;
         enemyCardName.text = enemyCard.cardName;
 
@@ -49,6 +53,31 @@ public class UIHandler : MonoBehaviour
 
     public void Attack()
     {
+
+        
+        
+        //when the attack button is pressed, deal damage to enemy card based on player card attack.
         enemyCard.health -= playersCard.attack;
+        Debug.Log("Player's card attacks enemy card for "+playersCard.attack+" damage.");
+
+        //also subtract health from player's card based on enemy card defence
+        playersCard.health -= enemyCard.defence;
+        Debug.Log("Enemy card's defense deals "+enemyCard.defence+" damage back.");
+
+        //after an attack, check if cards still have health. If not, set them to dead status.
+        if (playersCard.health<=0)
+        {
+            playersCard.alive = false;
+            Debug.Log("Player's card dies");
+        }
+        if (enemyCard.health <= 0)
+        {
+            enemyCard.alive = false;
+            Debug.Log("Enemy's card dies");
+        }
+
+        //Logs health of both cards for debug purpoises 
+        Debug.Log("Player's card current health:"+playersCard.health);
+        Debug.Log("Enemy's card current health:" + enemyCard.health);
     }
 }
