@@ -11,12 +11,6 @@ This repository is for our code in DLTCG.
 - Deprecated/Unused features will go in `/depr`. Try not to delete stuff, as they might come in handy later
 - If you need help with something and/or are not skilled enough to do it, reach out in the chat on Discord, and try to submit and issue to allow for easier tracking of your problem
 
-### To create a new card
-- Right click in the Assets panel and select 'Create -> Card'.
-
-
-# NOTE:
-`This is a testing branch and is not stable. It will be updated many times and may contain errors.`
-
-
-`THIS BRANCH IS NOT REPRESENTITIVE OF THE FINAL OR CURRENT PRODUCT`
+## IMPORTANT
+ON HOLD, POSSIBLY COMPLETELY CANCELED! Do not expect frequent or even any updates!
+=======
